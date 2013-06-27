@@ -4,5 +4,5 @@
 
 Installs the two packages `foo` and `bar`
 
-  - install-packages:
-      packages: foo, bar
+    - install-packages:
+        packages: foo, bar
