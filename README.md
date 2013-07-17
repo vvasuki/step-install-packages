@@ -2,6 +2,10 @@
 
 Installs packages specified with the `packages` option. It leverages caching to increase build time.
 
+## Options
+
+* `packages`: Option is required. The name of the packages to install.
+
 ## Example
 
 Installs the two packages `git`, `subversion` and `apache`. Packages should be seperated by whitespace.
