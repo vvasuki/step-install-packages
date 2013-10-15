@@ -4,8 +4,7 @@ Installs packages specified with the `packages` option. It leverages caching to 
 
 # What's new
 
-- Update readme
-- Fixed readme
+- Assume Yes to all queries and do not prompt
 
 # Options
 
@@ -47,6 +46,10 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.4
+
+- Assume Yes to all queries and do not prompt
 
 ## 0.0.3
 
