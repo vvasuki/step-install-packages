@@ -12,10 +12,10 @@ Installs packages specified with the `packages` option. It leverages caching to 
 
 # Example
 
-Installs three packages `git`, `subversion` and `apache`:
+Installs three packages `git`, `subversion` and `apache2`:
 
     - install-packages:
-        packages: git subversion apache
+        packages: git subversion apache2
 
 You can also specify version:
 
