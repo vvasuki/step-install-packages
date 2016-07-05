@@ -1,8 +1,13 @@
 name: install-packages
-version: 0.0.4
+version: 1.0.0
 description: install-packages step
 keywords:
   - apt-get
   - update
   - install
   - packages
+properties:
+  clear-cache:
+    type: string
+    required: false
+    default: "true"

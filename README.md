@@ -9,6 +9,8 @@ Installs packages specified with the `packages` option. It leverages caching to 
 # Options
 
 * `packages`: (required) The name(s) of the packages to install. Separate packages using a space.
+* `clear-cache`: (optional) Clears the Wercker cache when retrying. Set to `true` by default.
+
 
 # Example
 
