@@ -1,0 +1,16 @@
+name: install-packages
+version: 1.1.0
+summary: install-packages step
+tags:
+  - apt-get
+  - update
+  - install
+  - packages
+properties:
+- name: packages
+  type: string
+  required: true
+- name: clear-cache
+  type: string
+  required: false
+  default: "true"
