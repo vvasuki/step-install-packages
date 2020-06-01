@@ -1,6 +1,6 @@
-name: install-packages
+name: install-universe-packages
 version: 1.1.1
-summary: install-packages step
+summary: install-packages step supporting ubuntu universe packages
 tags:
   - apt-get
   - update
