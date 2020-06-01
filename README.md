@@ -1,18 +1,9 @@
-# install-packages
-
-Installs packages specified with the `packages` option. It leverages caching to decrease build time.
-
-# What's new
-
-- Assume Yes to all queries and do not prompt
-
-# Options
-
-* `packages`: (required) The name(s) of the packages to install. Separate packages using a space.
-* `clear-cache`: (optional) Clears the Wercker cache when retrying. Set to `true` by default.
+## Intro
+This is a fork of wercker/step-install-packages with the following change:
+- It adds the universe repository.
 
 
-# Example
+## Example
 
 Installs three packages `git`, `subversion` and `apache2`:
 
@@ -24,7 +15,7 @@ You can also specify version:
     - install-packages:
         packages: apache2=2.2.20-1ubuntu1
 
-# License
+## License
 
 The MIT License (MIT)
 
