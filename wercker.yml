@@ -11,4 +11,4 @@ build:
 publish:
   steps:
     - internal/publish-step:
-        owner: wercker
+        owner: vvasuki
