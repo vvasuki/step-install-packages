@@ -25,10 +25,10 @@ exec_install_packages(){
   mkdir -p $APT_LIST_PATH
   sudo rm -fr /var/lib/apt/lists
   sudo ln -s $APT_LIST_PATH/ /var/lib/apt/lists
-  sudo apt-get install software-properties-common
-  sudo add-apt-repository universe 
+#  sudo apt-get install software-properties-common
+#  sudo add-apt-repository universe 
   sudo apt-get update
-  sudo apt-get install $WERCKER_INSTALL_PACKAGES_PACKAGES -y
+  sudo apt-get install WERCKER_INSTALL_UNIVERSE_PACKAGES_PACKAGES -y
 
   if [[ $? -ne 0 ]]; then
     info "Unable to execute apt-get-install"
